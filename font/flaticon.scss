@@ -1,0 +1,137 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?6e056497b05f0bd96b45893a27cf54d0") format("truetype"),
+url("./flaticon.woff?6e056497b05f0bd96b45893a27cf54d0") format("woff"),
+url("./flaticon.woff2?6e056497b05f0bd96b45893a27cf54d0") format("woff2"),
+url("./flaticon.eot?6e056497b05f0bd96b45893a27cf54d0#iefix") format("embedded-opentype"),
+url("./flaticon.svg?6e056497b05f0bd96b45893a27cf54d0#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "play": "\f101",
+    "light-bulb": "\f102",
+    "talent": "\f103",
+    "key": "\f104",
+    "responsibility": "\f105",
+    "call": "\f106",
+    "guarantee": "\f107",
+    "speed": "\f108",
+    "reliability": "\f109",
+    "microscope": "\f10a",
+    "agriculture": "\f10b",
+    "personal": "\f10c",
+    "loan": "\f10d",
+    "loan-1": "\f10e",
+    "loan-2": "\f10f",
+    "scholarship": "\f110",
+    "capital": "\f111",
+    "satisfaction": "\f112",
+    "contract": "\f113",
+    "approval": "\f114",
+    "transparency": "\f115",
+    "log-in": "\f116",
+    "reciever": "\f117",
+    "sprout": "\f118",
+    "loan-3": "\f119",
+    "user-experience": "\f11a",
+    "economy": "\f11b",
+    "investor": "\f11c",
+);
+
+.flaticon-play:before {
+    content: map-get($flaticon-map, "play");
+}
+.flaticon-light-bulb:before {
+    content: map-get($flaticon-map, "light-bulb");
+}
+.flaticon-talent:before {
+    content: map-get($flaticon-map, "talent");
+}
+.flaticon-key:before {
+    content: map-get($flaticon-map, "key");
+}
+.flaticon-responsibility:before {
+    content: map-get($flaticon-map, "responsibility");
+}
+.flaticon-call:before {
+    content: map-get($flaticon-map, "call");
+}
+.flaticon-guarantee:before {
+    content: map-get($flaticon-map, "guarantee");
+}
+.flaticon-speed:before {
+    content: map-get($flaticon-map, "speed");
+}
+.flaticon-reliability:before {
+    content: map-get($flaticon-map, "reliability");
+}
+.flaticon-microscope:before {
+    content: map-get($flaticon-map, "microscope");
+}
+.flaticon-agriculture:before {
+    content: map-get($flaticon-map, "agriculture");
+}
+.flaticon-personal:before {
+    content: map-get($flaticon-map, "personal");
+}
+.flaticon-loan:before {
+    content: map-get($flaticon-map, "loan");
+}
+.flaticon-loan-1:before {
+    content: map-get($flaticon-map, "loan-1");
+}
+.flaticon-loan-2:before {
+    content: map-get($flaticon-map, "loan-2");
+}
+.flaticon-scholarship:before {
+    content: map-get($flaticon-map, "scholarship");
+}
+.flaticon-capital:before {
+    content: map-get($flaticon-map, "capital");
+}
+.flaticon-satisfaction:before {
+    content: map-get($flaticon-map, "satisfaction");
+}
+.flaticon-contract:before {
+    content: map-get($flaticon-map, "contract");
+}
+.flaticon-approval:before {
+    content: map-get($flaticon-map, "approval");
+}
+.flaticon-transparency:before {
+    content: map-get($flaticon-map, "transparency");
+}
+.flaticon-log-in:before {
+    content: map-get($flaticon-map, "log-in");
+}
+.flaticon-reciever:before {
+    content: map-get($flaticon-map, "reciever");
+}
+.flaticon-sprout:before {
+    content: map-get($flaticon-map, "sprout");
+}
+.flaticon-loan-3:before {
+    content: map-get($flaticon-map, "loan-3");
+}
+.flaticon-user-experience:before {
+    content: map-get($flaticon-map, "user-experience");
+}
+.flaticon-economy:before {
+    content: map-get($flaticon-map, "economy");
+}
+.flaticon-investor:before {
+    content: map-get($flaticon-map, "investor");
+}

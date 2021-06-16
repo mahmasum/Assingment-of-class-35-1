@@ -1,0 +1,129 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "flaticon";
+  src: url("./flaticon.ttf?6e056497b05f0bd96b45893a27cf54d0") format("truetype"), url("./flaticon.woff?6e056497b05f0bd96b45893a27cf54d0") format("woff"), url("./flaticon.woff2?6e056497b05f0bd96b45893a27cf54d0") format("woff2"), url("./flaticon.eot?6e056497b05f0bd96b45893a27cf54d0#iefix") format("embedded-opentype"), url("./flaticon.svg?6e056497b05f0bd96b45893a27cf54d0#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+  font-family: flaticon !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-play:before {
+  content: "";
+}
+
+.flaticon-light-bulb:before {
+  content: "";
+}
+
+.flaticon-talent:before {
+  content: "";
+}
+
+.flaticon-key:before {
+  content: "";
+}
+
+.flaticon-responsibility:before {
+  content: "";
+}
+
+.flaticon-call:before {
+  content: "";
+}
+
+.flaticon-guarantee:before {
+  content: "";
+}
+
+.flaticon-speed:before {
+  content: "";
+}
+
+.flaticon-reliability:before {
+  content: "";
+}
+
+.flaticon-microscope:before {
+  content: "";
+}
+
+.flaticon-agriculture:before {
+  content: "";
+}
+
+.flaticon-personal:before {
+  content: "";
+}
+
+.flaticon-loan:before {
+  content: "";
+}
+
+.flaticon-loan-1:before {
+  content: "";
+}
+
+.flaticon-loan-2:before {
+  content: "";
+}
+
+.flaticon-scholarship:before {
+  content: "";
+}
+
+.flaticon-capital:before {
+  content: "";
+}
+
+.flaticon-satisfaction:before {
+  content: "";
+}
+
+.flaticon-contract:before {
+  content: "";
+}
+
+.flaticon-approval:before {
+  content: "";
+}
+
+.flaticon-transparency:before {
+  content: "";
+}
+
+.flaticon-log-in:before {
+  content: "";
+}
+
+.flaticon-reciever:before {
+  content: "";
+}
+
+.flaticon-sprout:before {
+  content: "";
+}
+
+.flaticon-loan-3:before {
+  content: "";
+}
+
+.flaticon-user-experience:before {
+  content: "";
+}
+
+.flaticon-economy:before {
+  content: "";
+}
+
+.flaticon-investor:before {
+  content: "";
+}
+/*# sourceMappingURL=flaticon.css.map */

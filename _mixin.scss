@@ -1,0 +1,29 @@
+@mixin defaul-btn{
+    background-color: $comon-color;
+    color: white;
+    border-radius: 5px;
+    font-weight: 500;
+    padding: 10px 30px;
+    position: relative;
+    z-index: 1;
+
+    &:hover {
+        &::before {
+            width: 100%;
+        }
+    }
+
+    &::before {
+        content: '';
+        background-color: #111111;
+        width: 0;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        border-color: #111111;
+        z-index: -1;
+        transition: all .3s ease-in-out;
+
+    }
+}
